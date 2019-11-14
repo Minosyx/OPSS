@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Zadanie 2</title>
+	</head>
+	<body>
+		<h1>Kawałek matematyki</h1>
+		<strong>Wzór Eulera</strong>
+		<p>
+			Niech &phi; &isin; R, zaś <em>i</em> jest jednostką urojoną, wtedy wzór Eulera ma postać:<br/>
+			<em>e<sup>i&phi;</em></sup> = cos<em>&phi;</em> + <em>i</em>sin<em>&phi;</em>
+		</p>
+		<p>
+			<strong>
+			Tożsamość Eulera,<br/>
+			czyli najpiękniejszy wzór matematyki...
+			</strong>
+		</p>
+		<p>
+			Dla <em>&phi; = &pi;</em> wzór Eulera przyjmuje postać: <br/>
+			<em>e<sup>&pi;i</sup></em> + 1 = 0
+		</p>
+		
+		<hr/>
+		
+		<h1>Kawałek kodu w języku C</h1>
+		
+		<pre><code>
+#include &lt;stdio.h&gt;
+
+unsigned silnia(unsigned n)
+{
+	unsigned i, wynik = 1;
+	
+	for (i = 2; i &lt;= n; i++)
+		wynik *= i;
+		
+	return wynik;
+}
+
+int main(void)
+{
+	unsigned liczba;
+	
+	printf(&quot;Podaj liczbe naturalna: &quot;);
+	scanf(&quot;%u&quot;, &amp;liczba);
+	printf(&quot;%u! = %u\n&quot;, liczba, silnia(liczba));
+	
+	return 0;
+}
+		</code></pre>
+	</body>
+</html>
