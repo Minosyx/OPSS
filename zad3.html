@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8" />
+	<title>Zadanie 3</title>
+</head>
+
+<body>
+	
+	<h1>Listy w (X)HTML</h1>
+	<h2>Lista nienumerowana</h2>
+	
+	<ul>
+		<li>Pierwszy element</li>
+		<li>Drugi element</li>
+		<li>Trzeci element</li>
+	</ul>
+	
+	<h2>Lista numerowana</h2>
+	
+	<ol>
+		<li>Pierwszy element</li>
+		<li>Drugi element</li>
+		<li>Trzeci element</li>
+	</ol>
+	
+	<h2>Lista definicji, czyli np. słownik</h2>
+	
+	<dl>
+		<dt>Pierwszy termin</dt>
+		<dd>Definicja pierwszego terminu</dd>
+		
+		<dt>Drugi termin</dt>
+		<dd>Definicja drugiego terminu</dd>
+		
+		<dt>Trzeci termin</dt>
+		<dd>Definicja trzeciego terminu</dd>
+	</dl>
+	
+	<h3>Uwaga!</h3>
+	<p>
+		<strong>W obrębie listy definicji tekst i inne elementy można wstawiać <em>tylko wewnątrz znaczników terminów i definicji</em>, A NIE POZA NIMI!</strong>
+	</p>
+	
+	<hr />
+	
+	<h2>Lista złożona</h2>
+	
+	<ol start="0">
+		<li>Możemy startować od zera!
+			<ul>
+				<li>A listy możemy</li>
+				<li>Zagnieżdżać
+				
+				<ul>
+					<li>Nawet</li>
+					<li>Bardzo</li>
+					<li>Głęboko</li>
+				</ul>
+				
+				</li>
+				<li>Wypunktowania zmieniają się same!</li>
+				<li>W zależności od poziomu na jakim jesteśmy.</li>
+			</ul>
+		</li>
+		<li>Są też różne oznaczenia
+			
+			<ol type="A">
+				<li>Listy numerowane</li>
+				<li>Można oznaczać</li>
+				<li>Również dużymi literami
+					<ol type="I">
+						<li>A nawet</li>
+						<li>Liczbami rzymskimi</li>
+						<li>I to nie tylko dużymi
+						
+							<ol start="3" type="i" reversed="reversed">
+								<li>ale również małymi</li>
+								<li>nawet w odwrotnym</li>
+								<li>porządku</li>
+							</ol>
+							
+						</li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+		<li>Miszanka (niekoniecznie) wybuchowa
+		
+			<ul>
+				<li>Listy można też mieszać
+				
+				<ol>
+					<li>Numerowane</li>
+					<li>Z nienumerowanymi</li>
+				</ol>
+				
+				</li>
+				
+				<li>A nawet tworzyć podlisty innego typu
+					<ul>
+						<li>Na tym samym</li>
+						<li>Poziomie zagnieżdżenia</li>
+					</ul>
+				</li>
+			</ul>
+			
+		</li>
+	</ol>
+</body>
+
+</html>
