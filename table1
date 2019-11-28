@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="pl-PL">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Tabele</title>
+</head>
+
+<body>
+	<h1>Przykład tabeli</h1>
+	
+	<table border="1px solid black" cellpadding="10px" cellspacing="2px">
+	
+	<thead>
+		<tr>
+			<th scope="col">Lp.</th> 
+			<th scope="col" style="width: 40%;">Imię</th> 
+			<th scope="col">Wiek</th> 
+			<th scope="col">Wzrost</th> 
+			<th scope="col">Waga</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr align="center">
+			<th scope="row">1.</th> 
+			<td style="font-style: italic;">Jasiek</td> 
+			<td>16</td> 
+			<td>168</td> 
+			<td>62</td>
+		</tr>
+		<tr align="center">
+			<th scope="row">2.</th>
+			<td style="font-style: italic;">Julka</td> 
+			<td>18</td> 
+			<td>172</td> 
+			<td>56</td>
+		</tr>
+	</tbody>
+	
+	<tfoot>
+		<tr align="center" style="font-weight: bold;">
+			<td colspan="2">średnia</td>
+			<td>17</td>
+			<td>170</td>
+			<td>59</td>
+		</tr>
+	</tfoot>
+	</table>
+
+	<hr>
+	
+	<h1>Inny przykład tabeli</h1>
+
+	
+</body>
+
+</html>
