@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8" />
+	<title>Tabele</title>
+	<link rel="stylesheet" type="text/css" href="tabela5.css" >
+</head>
+
+<body>
+
+	<h1>Przykład tabeli</h1>
+
+	<table id="tab1">
+	<thead>
+		<tr>
+			<th scope="col">Lp.</th>
+			<th id="wide" scope="col">Imię</th>
+			<th scope="col">Wiek</th>
+			<th scope="col">Wzrost</th>
+			<th scope="col">Waga</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>1.</td>
+			<td class="imie">Jasiek</td>
+			<td>16</td>
+			<td>168</td>
+			<td>62</td>
+		</tr>
+		<tr>
+			<td>2.</td>
+			<td class="imie">Julka</td>
+			<td>18</td>
+			<td>172</td>
+			<td>56</td>
+		</tr>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<td colspan="2">średnia</td>
+			<td>17</td>
+			<td>170</td>
+			<td>59</td>
+		</tr>
+	</tfoot>
+	</table>
+
+	<hr>
+
+	<h1>Inny przykład tabeli</h1>
+
+	<table id="tab2">
+		<thead>
+			<tr>
+				<th scope="col">Lp.</th>
+				<th scope="col">Kolumna A</th>
+				<th scope="col">Kolumna B</th>
+				<th scope="colgroup" colspan="2">Kolumna C</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>1.</td>
+				<td>Komórka A1</td>
+				<td rowspan="2">Komórka B1/2</td>
+				<td>Komórka C11</td>
+				<td>Komórka C12</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Komórka A2</td>
+				<td rowspan="2" colspan="2">Komórka C2/3</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Komórka A3</td>
+				<td>Komórka B3</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="5">Przykład kolorowej tabeli ze stopką</td>
+			</tr>
+		</tfoot>
+	</table>
+
+</body>
+
+</html>
