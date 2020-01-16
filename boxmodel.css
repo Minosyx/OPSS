@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+body{
+    background: linear-gradient(90deg, #152031, #253A55 10%, #253A55 90%, #152031);
+}
+
+#wrapper{
+    margin: 0 auto;
+}
+
+#h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+    font-variant: small-caps;
+    color: #228E9F;
+    text-shadow: -5px -5px red, 5px 5px goldenrod;
+    line-height: 0.5;
+}
+
+#nav-wrapper{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.bryly{
+    margin: 0 50px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: red;
+}
+
+
+a:hover{
+    color: goldenrod;
+}
+
+.grafika{
+    float: right;
+}
+
+#main-wrapper{
+    margin: 40px auto 40px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+    box-sizing: border-box;
+    opacity: 85%;
+}
+
+#border{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#h2{
+    margin-top: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Black Ops One", cursive;
+    font-variant: small-caps;
+    line-height: 0.1;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#desc-container{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#main-footer-container{
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+#source{
+    font-style: italic;
+    color: red;
+}
+
+#main-footer-content{
+    font-size: smaller;
+}
+
+#copyright{
+    text-align: center;
+    color: lightgray;
+}
+
+#style-clear{
+    clear: both;
+}
