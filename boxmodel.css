@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+body{
+  background: linear-gradient(90deg, #231293, blue, #231293);
+}
+
+#wrapper{
+  margin: 0 auto;
+}
+
+#header{
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  font-size: 100px;
+  font-variant: small-caps;
+  color: lightblue;
+  text-shadow: -5px -5px red, 5px 5px gold;
+}
+
+#nav-wrapper{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.bryly{
+  margin: 0 50px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+#szescian{
+  color: red;
+}
+
+#czworoscian{
+  color: gold;
+}
+
+.grafika{
+  float: right;
+}
+
+#main-wrapper{
+  
+}
