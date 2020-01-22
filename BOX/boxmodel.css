@@ -20,6 +20,7 @@ body{
 }
 
 #nav-wrapper{
+    width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto;
 }
